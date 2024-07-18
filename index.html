@@ -593,9 +593,11 @@ document.getElementById("year").innerHTML = ((new Date().getFullYear()) - 2011);
               <!-- <p>Information yet to be added</p> -->
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-5" onclick="window.open('assets/documents/konica_minolta.pdf' , '_blank')"  aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-               View Brochure
+
+              <button class="btn btn-success" type="button" onclick="document.getElementById('konika-link').click()">
+                View Brochure
               </button>
+              <a id="konika-link" href="assets/documents/konica_minolta.pdf" target="_blank" style="display:none;"></a>
             
               <!-- <div class="collapse" id="card-5">
                 <div class="card card-body" >
@@ -620,9 +622,13 @@ document.getElementById("year").innerHTML = ((new Date().getFullYear()) - 2011);
               <!-- <p>All Ricoh products that are serviced and sold by us are given in the brochure below.</p> -->
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-6" onclick="window.open('assets/documents/ricoh.pdf', '_blank')" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
+              <!-- <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-6" onclick="window.open('assets/documents/ricoh.pdf', '_blank')" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
+                View Brochure
+              </button> -->
+              <button class="btn btn-success" type="button" onclick="document.getElementById('ricoh-link').click()">
                 View Brochure
               </button>
+              <a id="ricoh-link" href="assets/documents/ricoh.pdf" target="_blank" style="display:none;"></a>
             
               <!-- <div class="collapse" id="card-6">
                 <div class="card card-body" >
