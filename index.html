@@ -49,7 +49,15 @@ $(function () {
 
 
   </script>
-  
+  <script>
+
+
+var year = ((new Date().getFullYear()) - 2011)
+console.log(year);
+document.getElementById("year").innerHTML = ((new Date().getFullYear()) - 2011);
+
+
+  </script>
 
 </head>
 
@@ -332,7 +340,7 @@ $(function () {
                   <i class="bi bi-calendar4-week flex-shrink-0"></i>
                   <div >
                     <div style="display: flex; flex-wrap: nowrap;">
-                    <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="13" id="year" data-purecounter-duration="1" class="purecounter"></span>
                     <span style="font-size: 30px;">+</span>
                   </div>
                     <p><strong>Years in operation</strong> <span lang="hi">(संचालन में वर्ष)</span></p>
@@ -469,16 +477,21 @@ $(function () {
                 <img src="assets/img/clients/canon.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>Click "View Product Range" to see the range of canon products we sell</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
               
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-1" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-1">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.canon-europe.com/business/products/office-printers/multifunction/black-and-white/imagerunner-advance-dx-8900-series/specifications/imagerunner-advance-dx-8986i.html" target="_blank">ADV 8986</a></li>
+                    <li><a href="https://in.canon/en/business/imagepress-c265/product" target="_blank">C265</a></li>
+                    <li><a href="https://www.canon.com.au/production-printers/imagepress-v700" target="_blank">V700</a></li>
+                    <li><a href="https://in.canon/en/business/imagepress-v1000/product" target="_blank">V1000</a></li>
+                  </ul>
                 </div>
               </div>
 
@@ -491,16 +504,27 @@ $(function () {
                 <img src="assets/img/clients/epson.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>We sell the complete range of Epson Printers and Projectors</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-2" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-2">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.epson.co.in/For-Home/Printers/EcoTank-Printers/c/h120in" target="_blank">Epson Ecotank printers </a></li>
+                    <li><a href="https://www.epson.co.in/Business-Inkjet-Printers/c/w110in" target="_blank">Business Inkjet Printers</a></li>
+                    <li><a href="https://www.epson.co.in/For-Work/Printers/Photo-Printers/c/w120in" target="_blank">Photo Printers</a></li>
+                    <li><a href="https://www.epson.co.in/dotmatrix" target="_blank">Dot Matrix Printers</a></li>
+                    <li><a href="https://www.epson.co.in/Label-Printers-and-Presses/c/w130" target="_blank">Label Printers and Presses</a></li>
+                    <li><a href="https://www.epson.co.in/largeformat" target="_blank">Large Format Printers</a></li>
+                    <li><a href="https://www.epson.co.in/For-Home/Projectors/Home-Theatre/c/h310" target="_blank">Home Theatre Projectors</a></li>
+                    <li><a href="https://www.epson.co.in/interactive" target="_blank">Interactive Projector</a></li>
+                    <li><a href="https://www.epson.co.in/highbrightness" target="_blank">High Brightness Projectors</a></li>
+                    <li><a href="https://www.epson.co.in/Scanners/c/w2" target="_blank">Scanners</a></li>
+                  </ul>
                 </div>
               </div>
 
@@ -513,16 +537,20 @@ $(function () {
                 <img src="assets/img/clients/evolis.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>Click "View Product Range" to see the range of Evolis products we sell</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-3" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-3">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.evolis.com/solutions/card-printers/primacy2-card-printer/" target="_blank">PRIMACY 2</a></li>
+                    <li><a href="https://in.evolis.com/wp-content/uploads/2023/03/brochure-asmi-eng.pdf" target="_blank">ASMI</a></li>
+                    <li><a href="https://www.evolis.com/solutions/card-printers/badgy200-card-printer/" target="_blank">BADGY</a></li>
+                  </ul>
                 </div>
               </div>
 
@@ -535,16 +563,20 @@ $(function () {
                 <img src="assets/img/clients/ka.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>Click "View Product Range" to see the range of Kodak Alaris products we sell</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-4" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-4">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.alarisworld.com/en-us/solutions/document-scanners/office-scanners#Simple" target="_blank">I900 Series</a></li>
+                    <li><a href="https://www.alarisworld.com/en-us/solutions/document-scanners/office-scanners#Simple" target="_blank">E1000 Series</a></li>
+                    <li><a href="https://www.alarisworld.com/en-us/solutions/document-scanners/office-scanners#Simple" target="_blank">S2000 Series</a></li>
+                  </ul>
                 </div>
               </div>
 
@@ -557,18 +589,23 @@ $(function () {
                 <img src="assets/img/clients/km.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              
+              <!-- <p>Information yet to be added</p> -->
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-5" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-5" onclick="window.open('assets/documents/konica_minolta.pdf')" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
+               View Brochure
               </button>
             
-              <div class="collapse" id="card-5">
+              <!-- <div class="collapse" id="card-5">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                  </ul>
                 </div>
-              </div>
+              </div> -->
 
             </div>
           </div><!-- End Service Item -->
@@ -579,18 +616,23 @@ $(function () {
                 <img src="assets/img/clients/ricoh.webp" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <br>
+              <!-- <p>All Ricoh products that are serviced and sold by us are given in the brochure below.</p> -->
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-6" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-6" onclick="window.open('assets/documents/ricoh.pdf')" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
+                View Brochure
               </button>
             
-              <div class="collapse" id="card-6">
+              <!-- <div class="collapse" id="card-6">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                  </ul>
                 </div>
-              </div>
+              </div> -->
 
             </div>
           </div><!-- End Service Item -->
@@ -601,16 +643,28 @@ $(function () {
                 <img src="assets/img/clients/Riso.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>Click "View Product Range" to see the range of canon products we sell</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-7" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-7">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.risoindia.com/cv1200/" target="_blank">CV1200</a></li>
+                    <li><a href="https://www.risoindia.com/duplicators/cv3130/" target="_blank">CV3130</a></li>
+                    <li><a href="https://www.risoindia.com/duplicators/CV3230/" target="_blank">CV3230</a></li>
+                    <li><a href="https://us.riso.com/products/digital-duplicators/sf-series/sf5130/" target="_blank">SF5130</a></li>
+                    <li><a href="https://www.risoindia.com/duplicators/sf5330-eii/" target="_blank">SF5330</a></li>
+                    <li><a href="https://www.risoindia.com/duplicators/sf5350-eii/" target="_blank">SF5350</a></li>
+                    <li><a href="https://www.risoindia.com/duplicators/sf9350-eii/" target="_blank">SF9350</a></li>
+                    <li><a href="https://us.riso.com/products/comcolor-inkjet-printers/ft-series/comcolor-ft1430/" target="_blank">FT1430</a></li>
+                    <li><a href="https://us.riso.com/products/comcolor-inkjet-printers/ft-series/comcolor-ft5430/" target="_blank">FT5430</a></li>
+                    <li><a href="https://us.riso.com/products/comcolor-inkjet-printers/gl-series/comcolor-gl9730/" target="_blank">GL9730</a></li>
+                    <li><a href="https://us.riso.com/products/comcolor-inkjet-printers/gl-series/comcolor-gl7430/" target="_blank">GL7430</a></li>
+                  </ul>
                 </div>
               </div>
 
@@ -623,16 +677,28 @@ $(function () {
                 <img src="assets/img/clients/toa.png" class="img-fluid" alt="">
               </div><!-- End Client Item -->
               <h3></h3>
-              <p>Information yet to be added</p>
+              <p>Click "View Product Range" to see the range of canon products we sell</p>
               <!-- <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
 
               <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#card-8" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 10px;margin-top: 10px;">
-                Know More
+                View Product Range
               </button>
             
               <div class="collapse" id="card-8">
                 <div class="card card-body" >
-                  Information yet to be added
+                  <ul>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/intercom-systems" target="_blank">Public Addressable (PA) Systems and Voice Evacuation systems</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/conference-systems" target="_blank">Conference room Audio set up</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/loudspeakers" target="_blank">Theatre and Auditorium Audio System</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/amplifiers" target="_blank">Amplifiers</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/loudspeakers" target="_blank">Speakers</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/ip-audio" target="_blank">IP Audio</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/mixers" target="_blank">Mixers</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/wireless-microphones" target="_blank">Wireless Microphones</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/wired-microphones" target="_blank">Wired Microphones</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/audio-signal-processors" target="_blank">Audio signal processors</a></li>
+                    <li><a href="https://www.toaelectronics.com/en-us/products/audio-source_program-timers" target="_blank">Audio source/ program timers</a></li>
+                  </ul>
                 </div>
               </div>
 
